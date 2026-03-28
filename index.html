@@ -4,160 +4,160 @@
     <meta charset="UTF-8">
     <title>Lab 1</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, sans-serif;
+}
+
+body{
+background: linear-gradient(135deg,#ffd6f6,#e6ccff);
+color:#2d004d;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#8a2be2;
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+/* HERO */
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h2{
+font-size:40px;
+color:#8a2be2;
+}
+
+/* SECTIONS */
+
+section{
+padding:60px 10%;
+}
+
+/* CARDS */
+
+.card-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+}
+
+</style>
 </head>
 
-<body class="body">
+<nav>
+<h1>Trinah</h1>
 
-    <h2 class="header">PORTFOLIO</h2>
-
-    <img src="images/profile.jpg"
-         style="width: 2in; height: 2in; border: 3px solid rgb(5,7,114); border-radius: 19pc;">
-
-    <p>
-        <b>Trinah M. Pangilinan</b><br>
-        Mexico, Pampanga, Philippines<br>
-        trinahpangilinan79@gmail.com<br>
-        +63 935 200 7245
-    </p>
-
-    <p>
-    This portfolio presents my academic journey as an Information Technology student,
-    featuring my laboratory activities, coursework, and personal outputs. It reflects
-    my dedication to learning, improving my technical abilities, and developing creative
-    solutions through hands-on experience.
-</p>
-
-    <hr>
-
-    <h2>&#127775; About Me</h2>
-
-    <p>
-    I am <b>Trinah</b>, an Information Technology student who enjoys learning through
-    experience and creative exploration. I am motivated by self-improvement and curiosity,
-    and I continuously work on developing both my technical knowledge and creative skills.
-    This portfolio documents my progress, efforts, and growth as a student.
-</p>
-    <hr>
-
-    <h3>&#128483; What I Believe In:</h3>
-    <ul>
-    <li>Growth comes from consistent effort and a willingness to learn</li>
-    <li>Creativity improves when patience and discipline work together</li>
-    <li>Every challenge is an opportunity to become better</li>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
 </ul>
+</nav>
 
-<hr>
+<section class="hero">
+<h2>Hello, I'm Trinah 💜</h2>
+<p>Aspiring Web Developer</p>
+<button class="btn">View My Work</button>
+</section>
 
-<h2>🎓 Education</h2>
+<section id="about">
+<h2>About Me</h2>
+<p>I am currently learning web development and building projects using HTML, CSS, JavaScript, Python, and Java.</p>
+</section>
 
-<p>
-    <b>Magalang Institute Corporation</b><br>
-    Senior High School
-</p>
+<section id="skills">
+<h2>Skills</h2>
 
-<p>
-    <b>True Light Foundation School</b><br>
-    Junior High School
-</p>
+<div class="card-container">
 
-<p>
-    <b>Dee Hwa Liong College Foundation</b><br>
-    Elementary School
-</p>
+<div class="card">
+<h3>HTML</h3>
+<p>Website structure</p>
+</div>
 
-<hr>
+<div class="card">
+<h3>CSS</h3>
+<p>Website styling</p>
+</div>
 
-<h2>&#128187; Languages I Used Before:</h2>
-    <img src="images/python.png" style="width: 5pc; height: 5pc; border: 2px solid black; border-radius: 10pc;">
-    <img src="images/java.png" style="width: 5pc; height: 5pc; border: 2px solid black; border-radius: 10pc;">
-    <img src="images/html.png" style="width: 5pc; height: 5pc; border: 2px solid black; border-radius: 10pc;">
+<div class="card">
+<h3>JavaScript</h3>
+<p>Interactive websites</p>
+</div>
 
-    <hr>
+<div class="card">
+<h3>Python</h3>
+<p>Programming logic</p>
+</div>
 
-    <h2>📖 My Projects</h2>
+</div>
+</section>
 
-    <h4>MIDTERMS</h4>
-    <p>
-        <b>📘 MIDTERM LAB TASK 1:</b>
-<a href="midterms/mlt1/index.html" target="_blank">
-    MIDTERM RESUME
-</a><br>
-        <b>📘 MIDTERM LAB TASK 2:</b>
-<a href="midterms/mlt2/tables.html" target="_blank">
-    UNORDERED and ORDERED LISTS
-</a><br>
+<section id="projects">
+<h2>Projects</h2>
 
-        <b>&#128193; MIDTERM LAB TASK 3:</b>
-        <a href="CC MIDTERMS/MLT3/index.html" target="_blank">Ongoing...</a><br>
+<div class="card-container">
 
-        <b>&#128193; MIDTERM LAB TASK 4:</b>
-        <a href="CC MIDTERMS/MLT4/index.html" target="_blank">Ongoing...</a><br>
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>My personal portfolio hosted on GitHub.</p>
+</div>
 
-        Additional projects to be added...
-    </p>
+<div class="card">
+<h3>Future Project</h3>
+<p>More projects coming soon.</p>
+</div>
 
-    <hr>
+</div>
 
-    <h4>FINALS</h4>
-    <p>
-        <b>&#128193; FINAL LAB TASK 1:</b>
-        <a href="CC FINALS/FLT1/index.html" target="_blank">Ongoing...</a><br>
+</section>
 
-        <b>&#128193; FINAL LAB TASK 2:</b>
-        <a href="CC FINALS/FLT2/index.html" target="_blank">Ongoing...</a><br>
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: your@email.com</p>
+</section>
 
-        <b>&#128193; FINAL LAB TASK 3:</b>
-        <a href="CC FINALS/FLT3/index.html" target="_blank">Ongoing...</a><br>
-
-        <b>&#128193; FINAL LAB TASK 4:</b>
-        <a href="CC FINALS/FLT4/index.html" target="_blank">Ongoing...</a>
-    </p>
-
-     <hr>
-
-     <h2>&#128158; Hobbies:</h2>
-    <ul>
-        <ul>
-    <li>Singing</li>
-    <li>Cooking and trying new dishes</li>
-    <li>Reading books during free time</li>
-    <li>Watching movies and series</li>
-</ul>
-
-    <hr>
-
-
-    <h2>&#129504; Fun Fact About Me:</h2>
-    <ul>
-    <li>I enjoy working on projects when inspiration suddenly hits</li>
-    <li>I pay close attention to details because small changes matter</li>
-    <li>I often find creative ideas while listening to music or relaxing</li>
-    <li>I enjoy learning new things even outside my comfort zone</li>
-</ul>
-    <hr>
-
-    <h2>💜 Skills:</h2>
-    <ul>
-    <li>Flexible</li>
-    <Li>Basic video editing</Li>
-    <li>Creative and Critical Thinking</li>
-    <li>Time Management</li>
-    <li>Adaptability and Willingness to Learn</li>
-</ul>
-
-    <hr>
-
-    <h2>📬 Contact Me</h2>
-
-<p>Click below to visit my accounts:</p>
-
-<a href="https://www.facebook.com/trinah.pangilinan.3#" target="_blank"><img src="images\fb.png"style="width: 5pc; 1px solid black; border-radius: 10pc">
-
-<a href="https://www.instagram.com/twinah.p" target="_blank"><img src="images\ig.png"style="width: 5pc; 1px solid black; border-radius: 10pc">
-
-<a href="https://www.tiktok.com/@twinah.p?_r=1&_t=ZS-93aH5Zk9ktF
-" target="_blank"><img src="images\tiktok.png"style="width: 5pc; 1px solid black; border-radius: 10pc">
-
+<footer>
+<p>© 2026 Trinah Portfolio</p>
+</footer>
 
 </body>
 </html>
