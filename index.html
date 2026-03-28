@@ -1,160 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Lab 1</title>
-    <link rel="stylesheet" href="style.css">
 
-    <style>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trinah Portfolio</title>
+
+<style>
 
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family: Arial, sans-serif;
+font-family:Arial, sans-serif;
 }
 
 body{
 background: linear-gradient(135deg,#ffd6f6,#e6ccff);
 color:#2d004d;
+padding:40px;
+line-height:1.6;
+animation:fadeIn 1.5s ease;
 }
 
 
-nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 10%;
-background:#8a2be2;
-color:white;
+.header{
+text-align:center;
+font-size:40px;
+margin-bottom:20px;
+color:#8a2be2;
+animation:slideDown 1s ease;
 }
 
-nav ul{
-display:flex;
-list-style:none;
-gap:20px;
+
+.profile{
+width:2in;
+height:2in;
+border:3px solid rgb(5,7,114);
+border-radius:50%;
+display:block;
+margin:auto;
+transition:transform .3s;
 }
 
-nav ul li a{
-color:white;
+.profile:hover{
+transform:scale(1.1);
+}
+
+
+h2{
+color:#8a2be2;
+margin-top:20px;
+margin-bottom:10px;
+}
+
+h3{
+color:#ff4da6;
+margin-top:10px;
+}
+
+p{
+margin-bottom:15px;
+}
+
+ul{
+margin-left:25px;
+margin-bottom:20px;
+}
+
+
+a{
+color:#8a2be2;
+font-weight:bold;
 text-decoration:none;
 }
 
-
-
-.hero{
-height:80vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-}
-
-.hero h2{
-font-size:40px;
-color:#8a2be2;
+a:hover{
+color:#ff4da6;
+text-decoration:underline;
 }
 
 
-section{
-padding:60px 10%;
+.icons img{
+width:60px;
+margin-right:10px;
+border-radius:50%;
+border:2px solid black;
+transition:transform .3s;
+}
+
+.icons img:hover{
+transform:scale(1.2);
 }
 
 
-.card-container{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
+.lang img{
+width:70px;
+border:2px solid black;
+border-radius:50%;
+margin-right:10px;
+transition:transform .3s;
 }
 
-.card{
-background:white;
-padding:20px;
-border-radius:15px;
-box-shadow:0 6px 15px rgba(0,0,0,0.1);
+.lang img:hover{
+transform:scale(1.15);
+}
+
+
+hr{
+margin:30px 0;
+border:none;
+height:2px;
+background:#d5a6ff;
+}
+
+@keyframes fadeIn{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+@keyframes slideDown{
+from{
+opacity:0;
+transform:translateY(-30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
 }
 
 </style>
+
 </head>
 
-<nav>
-<h1>Trinah</h1>
+<body>
+
+<h2 class="header">PORTFOLIO</h2>
+
+<img src="images/profile.jpg" class="profile">
+
+<p>
+<b>Trinah M. Pangilinan</b><br>
+Mexico, Pampanga, Philippines<br>
+trinahpangilinan79@gmail.com<br>
++63 935 200 7245
+</p>
+
+<p>
+This portfolio presents my academic journey as an Information Technology student,
+featuring my laboratory activities, coursework, and personal outputs. It reflects
+my dedication to learning and improving my technical abilities.
+</p>
+
+<hr>
+
+<h2>🌟 About Me</h2>
+
+<p>
+I am <b>Trinah</b>, an Information Technology student who enjoys learning through
+experience and creative exploration. I am motivated by self-improvement and curiosity,
+and I continuously work on developing both my technical knowledge and creative skills.
+</p>
+
+<hr>
+
+<h3>🗣 What I Believe In</h3>
 
 <ul>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
+<li>Growth comes from consistent effort</li>
+<li>Creativity improves with patience and discipline</li>
+<li>Every challenge is an opportunity to improve</li>
 </ul>
-</nav>
 
-<section class="hero">
-<h2>Hello, I'm Trinah 💜</h2>
-<p>Aspiring Web Developer</p>
-<button class="btn">View My Work</button>
-</section>
+<hr>
 
-<section id="about">
-<h2>About Me</h2>
-<p>I am currently learning web development and building projects using HTML, CSS, JavaScript, Python, and Java.</p>
-</section>
+<h2>🎓 Education</h2>
 
-<section id="skills">
-<h2>Skills</h2>
+<p><b>Magalang Institute Corporation</b><br>Senior High School</p>
 
-<div class="card-container">
+<p><b>True Light Foundation School</b><br>Junior High School</p>
 
-<div class="card">
-<h3>HTML</h3>
-<p>Website structure</p>
+<p><b>Dee Hwa Liong College Foundation</b><br>Elementary School</p>
+
+<hr>
+
+<h2>💻 Languages I Used Before</h2>
+
+<div class="lang">
+<img src="images/python.png">
+<img src="images/java.png">
+<img src="images/html.png">
 </div>
 
-<div class="card">
-<h3>CSS</h3>
-<p>Website styling</p>
+<hr>
+
+<h2>📖 My Projects</h2>
+
+<h4>MIDTERMS</h4>
+
+<p>
+<b>📘 MIDTERM LAB TASK 1:</b>
+<a href="midterms/mlt1/index.html" target="_blank">MIDTERM RESUME</a><br>
+
+<b>📘 MIDTERM LAB TASK 2:</b>
+<a href="midterms/mlt2/tables.html" target="_blank">UNORDERED and ORDERED LISTS</a><br>
+
+<b>📁 MIDTERM LAB TASK 3:</b> Ongoing...<br>
+<b>📁 MIDTERM LAB TASK 4:</b> Ongoing...
+</p>
+
+<hr>
+
+<h4>FINALS</h4>
+
+<p>
+<b>📁 FINAL LAB TASK 1:</b> Ongoing...<br>
+<b>📁 FINAL LAB TASK 2:</b> Ongoing...<br>
+<b>📁 FINAL LAB TASK 3:</b> Ongoing...<br>
+<b>📁 FINAL LAB TASK 4:</b> Ongoing...
+</p>
+
+<hr>
+
+<h2>💖 Hobbies</h2>
+
+<ul>
+<li>Singing</li>
+<li>Cooking</li>
+<li>Reading books</li>
+<li>Watching movies and series</li>
+</ul>
+
+<hr>
+
+<h2>🧠 Fun Facts</h2>
+
+<ul>
+<li>I enjoy working when inspiration hits</li>
+<li>I pay attention to small details</li>
+<li>I often get ideas while listening to music</li>
+<li>I enjoy learning new things</li>
+</ul>
+
+<hr>
+
+<h2>💜 Skills</h2>
+
+<ul>
+<li>Flexible</li>
+<li>Basic video editing</li>
+<li>Creative and critical thinking</li>
+<li>Time management</li>
+<li>Adaptability and willingness to learn</li>
+</ul>
+
+<hr>
+
+<h2>📬 Contact Me</h2>
+
+<p>Click below to visit my accounts:</p>
+
+<div class="icons">
+
+<a href="https://www.facebook.com/trinah.pangilinan.3" target="_blank">
+<img src="images/fb.png">
+</a>
+
+<a href="https://www.instagram.com/twinah.p" target="_blank">
+<img src="images/ig.png">
+</a>
+
+<a href="https://www.tiktok.com/@twinah.p" target="_blank">
+<img src="images/tiktok.png">
+</a>
+
 </div>
-
-<div class="card">
-<h3>JavaScript</h3>
-<p>Interactive websites</p>
-</div>
-
-<div class="card">
-<h3>Python</h3>
-<p>Programming logic</p>
-</div>
-
-</div>
-</section>
-
-<section id="projects">
-<h2>Projects</h2>
-
-<div class="card-container">
-
-<div class="card">
-<h3>Portfolio Website</h3>
-<p>My personal portfolio hosted on GitHub.</p>
-</div>
-
-<div class="card">
-<h3>Future Project</h3>
-<p>More projects coming soon.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: your@email.com</p>
-</section>
-
-<footer>
-<p>© 2026 Trinah Portfolio</p>
-</footer>
 
 </body>
 </html>
