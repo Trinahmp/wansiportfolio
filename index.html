@@ -1,281 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trinah Portfolio</title>
+    <meta charset="UTF-8">
+    <title>Trinah M. Pangilinan Portfolio</title>
 
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, sans-serif;
-}
-
-body{
-background: linear-gradient(135deg,#ffd6f6,#e6ccff);
-color:#2d004d;
-padding:40px;
-line-height:1.6;
-animation:fadeIn 1.5s ease;
-}
-
-
-.header{
-text-align:center;
-font-size:40px;
-margin-bottom:20px;
-color:#8a2be2;
-animation:slideDown 1s ease;
-}
-
-
-.profile{
-width:2in;
-height:2in;
-border:3px solid rgb(5,7,114);
-border-radius:50%;
-display:block;
-margin:auto;
-transition:transform .3s;
-}
-
-.profile:hover{
-transform:scale(1.1);
-}
-
-
-h2{
-color:#8a2be2;
-margin-top:20px;
-margin-bottom:10px;
-}
-
-h3{
-color:#ff4da6;
-margin-top:10px;
-}
-
-p{
-margin-bottom:15px;
-}
-
-ul{
-margin-left:25px;
-margin-bottom:20px;
-}
-
-
-a{
-color:#8a2be2;
-font-weight:bold;
-text-decoration:none;
-}
-
-a:hover{
-color:#ff4da6;
-text-decoration:underline;
-}
-
-
-.icons img{
-width:60px;
-margin-right:10px;
-border-radius:50%;
-border:2px solid black;
-transition:transform .3s;
-}
-
-.icons img:hover{
-transform:scale(1.2);
-}
-
-
-.lang img{
-width:70px;
-border:2px solid black;
-border-radius:50%;
-margin-right:10px;
-transition:transform .3s;
-}
-
-.lang img:hover{
-transform:scale(1.15);
-}
-
-
-hr{
-margin:30px 0;
-border:none;
-height:2px;
-background:#d5a6ff;
-}
-
-@keyframes fadeIn{
-from{opacity:0;}
-to{opacity:1;}
-}
-
-@keyframes slideDown{
-from{
-opacity:0;
-transform:translateY(-30px);
-}
-to{
-opacity:1;
-transform:translateY(0);
-}
-}
-
-</style>
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<h2 class="header">PORTFOLIO</h2>
+    <canvas id="bgCanvas"></canvas>
 
-<img src="images/profile.jpg" class="profile">
+    <div id="floating-text"></div>
 
-<p>
-<b>Trinah M. Pangilinan</b><br>
-Mexico, Pampanga, Philippines<br>
-trinahpangilinan79@gmail.com<br>
-+63 935 200 7245
-</p>
+<div class="content">
 
-<p>
-This portfolio presents my academic journey as an Information Technology student,
-featuring my laboratory activities, coursework, and personal outputs. It reflects
-my dedication to learning and improving my technical abilities.
-</p>
+<h1 class="typing-text"></h1>
 
-<hr>
+        <div class="section-box">
+        <h2 class="header">PORTFOLIO</h2>
+    </div>
+        
+        <img src="images/profile.jpg" alt="Trinah Profile" class="profile">
 
-<h2>🌟 About Me</h2>
+       
+        <p>
+            <b>Trinah M. Pangilinan</b><br>
+            Mexico, Pampanga, Philippines<br>
+            trinahpangilinan79@gmail.com<br>
+            +63 935 200 7245
+        </p>
 
-<p>
-I am <b>Trinah</b>, an Information Technology student who enjoys learning through
-experience and creative exploration. I am motivated by self-improvement and curiosity,
-and I continuously work on developing both my technical knowledge and creative skills.
-</p>
+        <p>
+            This portfolio presents my academic journey as an Information Technology student,
+            featuring my laboratory activities, coursework, and personal outputs. It reflects
+            my dedication to learning, improving my technical abilities, and developing creative
+            solutions through hands-on experience.
+        </p>
 
-<hr>
+        <hr>
 
-<h3>🗣 What I Believe In</h3>
+    <div class="section-box">
+        <h2>&#127775; About Me</h2>
+        <p>
+            I am <b>Trinah</b>, an Information Technology student who enjoys learning through
+            experience and creative exploration. I am motivated by self-improvement and curiosity,
+            and I continuously work on developing both my technical knowledge and creative skills.
+        </p>
+    </div>
 
-<ul>
-<li>Growth comes from consistent effort</li>
-<li>Creativity improves with patience and discipline</li>
-<li>Every challenge is an opportunity to improve</li>
-</ul>
+    <div class="section-box">
+        <h3>&#128483; What I Believe In:</h3>
+        <ul>
+            <li>Growth comes from consistent effort and a willingness to learn</li>
+            <li>Creativity improves when patience and discipline work together</li>
+            <li>Every challenge is an opportunity to become better</li>
+        </ul>
+    </div>
 
-<hr>
+    <div class="section-box">
+        <h2>🎓 Education</h2>
+        <p><b>Magalang Institute Corporation</b><br>Senior High School</p>
+        <p><b>True Light Foundation School</b><br>Junior High School</p>
+        <p><b>Dee Hwa Liong College Foundation</b><br>Elementary School</p>
+    </div>
 
-<h2>🎓 Education</h2>
+    <div class="section-box">
+        <h2>&#128187; Languages I Used Before:</h2>
+        <img src="images/python.png" class="lang-icon" alt="Python">
+        <img src="images/java.png" class="lang-icon" alt="Java">
+        <img src="images/html.png" class="lang-icon" alt="HTML">
+    </div>
 
-<p><b>Magalang Institute Corporation</b><br>Senior High School</p>
+    <div class="section-box">
+        <h2>📖 My Projects</h2>
+    <hr>
+        <h4>MIDTERMS</h4>
+        <p>
+            <b>📘 MIDTERM LAB TASK 1:</b>
+            <a href="midterms/mlt1/index.html" target="_blank" class="project-link">MIDTERM RESUME</a><br>
 
-<p><b>True Light Foundation School</b><br>Junior High School</p>
+            <b>📘 MIDTERM LAB TASK 2:</b>
+            <a href="midterms/mlt2/tables.html" target="_blank" class="project-link">UNORDERED and ORDERED LISTS</a><br>
 
-<p><b>Dee Hwa Liong College Foundation</b><br>Elementary School</p>
+            <b>📘 MIDTERM LAB TASK 3:</b>
+            <a href="midterms/mlt3/forms.html" target="_blank" class="project-link">FORM</a><br>
 
-<hr>
+            <b>📘 MIDTERM LAB TASK 4:</b>
+            <a href="midterms/mlt4/imagemap.html" target="_blank" class="project-link">IMAGE MAP</a><br>
 
-<h2>💻 Languages I Used Before</h2>
+            <b>📘 MIDTERM LAB TASK 5:</b>
+            <a href="midterms/mlt5/resumecss.html" target="_blank" class="project-link">RESUME CSS</a><br>
 
-<div class="lang">
-<img src="images/python.png">
-<img src="images/java.png">
-<img src="images/html.png">
+            <b>📘 MIDTERM LAB TASK 6:</b>
+            <a href="midterms/mlt6/lab6.html" target="_blank" class="project-link">DISPLAY</a><br>
+
+            <b>📘 MIDTERM LAB TASK 7:</b>
+            <a href="midterms/mlt7/semantic.html" target="_blank" class="project-link">SEMANTIC</a><br>
+
+            <b>📘 MIDTERM LAB TASK 8:</b>
+            <a href="midterms/mlt8/stylesheet.html" target="_blank" class="project-link">STYLESHEET</a><br>
+        </p>
+    </div>
+
+    <div class="section-box">
+        <h4>FINALS</h4>
+        <p>
+            <b>&#128193; FINAL LAB TASK 1:</b>
+            <a href="CC FINALS/FLT1/index.html" target="_blank" class="project-link">Ongoing...</a><br>
+
+            <b>&#128193; FINAL LAB TASK 2:</b>
+            <a href="CC FINALS/FLT2/index.html" target="_blank" class="project-link">Ongoing...</a><br>
+
+            <b>&#128193; FINAL LAB TASK 3:</b>
+            <a href="CC FINALS/FLT3/index.html" target="_blank" class="project-link">Ongoing...</a><br>
+
+            <b>&#128193; FINAL LAB TASK 4:</b>
+            <a href="CC FINALS/FLT4/index.html" target="_blank" class="project-link">Ongoing...</a>
+        </p>
+    </div>
+
+    <div class="section-box">
+        <h2>&#128158; Hobbies:</h2>
+        <ul>
+            <li>Singing</li>
+            <li>Cooking and trying new dishes</li>
+            <li>Reading books during free time</li>
+            <li>Watching movies and series</li>
+        </ul>
+
+    </div>
+
+    <div class="section-box">
+        <h2>&#129504; Fun Fact About Me:</h2>
+        <ul>
+            <li>I enjoy working on projects when inspiration suddenly hits</li>
+            <li>I pay close attention to details because small changes matter</li>
+            <li>I often find creative ideas while listening to music or relaxing</li>
+            <li>I enjoy learning new things even outside my comfort zone</li>
+        </ul>
+    </div>
+
+    <div class="section-box">
+        <h2>💜 Skills:</h2>
+        <ul>
+            <li>Flexible</li>
+            <li>Basic video editing</li>
+            <li>Creative and Critical Thinking</li>
+            <li>Time Management</li>
+            <li>Adaptability and Willingness to Learn</li>
+        </ul>
+    </div>
+
+    <div class="section-box">
+        <h2>📬 Contact Me</h2>
+        <p>Click below to visit my accounts:</p>
+
+        <a href="https://www.facebook.com/trinah.pangilinan.3#" target="_blank">
+            <img src="images/fb.png" class="contact-icon" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/rinrin.whoo" target="_blank">
+            <img src="images/ig.png" class="contact-icon" alt="Instagram">
+        </a>
+        <a href="https://www.tiktok.com/rinrin.who" target="_blank">
+            <img src="images/tiktok.png" class="contact-icon" alt="TikTok">
+        </a>
+    </div>
+
 </div>
 
-<hr>
-
-<h2>📖 My Projects</h2>
-
-<h4>MIDTERMS</h4>
-
-<p>
-<b>📘 MIDTERM LAB TASK 1:</b>
-<a href="midterms/mlt1/index.html" target="_blank">MIDTERM RESUME</a><br>
-
-<b>📘 MIDTERM LAB TASK 2:</b>
-<a href="midterms/mlt2/tables.html" target="_blank">UNORDERED and ORDERED LISTS</a><br>
-
-<b>📁 MIDTERM LAB TASK 3:</b> Ongoing...<br>
-<b>📁 MIDTERM LAB TASK 4:</b> Ongoing...
-</p>
-
-<hr>
-
-<h4>FINALS</h4>
-
-<p>
-<b>📁 FINAL LAB TASK 1:</b> Ongoing...<br>
-<b>📁 FINAL LAB TASK 2:</b> Ongoing...<br>
-<b>📁 FINAL LAB TASK 3:</b> Ongoing...<br>
-<b>📁 FINAL LAB TASK 4:</b> Ongoing...
-</p>
-
-<hr>
-
-<h2>💖 Hobbies</h2>
-
-<ul>
-<li>Singing</li>
-<li>Cooking</li>
-<li>Reading books</li>
-<li>Watching movies and series</li>
-</ul>
-
-<hr>
-
-<h2>🧠 Fun Facts</h2>
-
-<ul>
-<li>I enjoy working when inspiration hits</li>
-<li>I pay attention to small details</li>
-<li>I often get ideas while listening to music</li>
-<li>I enjoy learning new things</li>
-</ul>
-
-<hr>
-
-<h2>💜 Skills</h2>
-
-<ul>
-<li>Flexible</li>
-<li>Basic video editing</li>
-<li>Creative and critical thinking</li>
-<li>Time management</li>
-<li>Adaptability and willingness to learn</li>
-</ul>
-
-<hr>
-
-<h2>📬 Contact Me</h2>
-
-<p>Click below to visit my accounts:</p>
-
-<div class="icons">
-
-<a href="https://www.facebook.com/trinah.pangilinan.3" target="_blank">
-<img src="images/fb.png">
-</a>
-
-<a href="https://www.instagram.com/twinah.p" target="_blank">
-<img src="images/ig.png">
-</a>
-
-<a href="https://www.tiktok.com/@twinah.p" target="_blank">
-<img src="images/tiktok.png">
-</a>
-
-</div>
+    <script src="script.js"></script>
 
 </body>
 </html>
