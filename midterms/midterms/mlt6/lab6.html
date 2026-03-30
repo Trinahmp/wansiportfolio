@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Task 6-1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .block-input {
+            display: block;
+            margin-bottom: 10px;
+            width: 250px;
+            padding: 8px;
+        }
+
+        /* Task 2: Inline-Block and Vertical Align */
+        .survey-container {
+            margin-top: 30px;
+        }
+
+        .survey-text {
+            display: inline-block;
+            width: 300px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .survey-btn {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 5px 15px;
+        }
+
+    
+        .google-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .google-logo {
+            display: block;
+            width: 270px;
+            margin: 0 auto 15px auto; 
+
+        }
+
+        .google-search {
+            width: 500px;
+            padding: 12px 20px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .signup-card {
+            background-color: #f0f2f5;
+            padding: 20px;
+            width: 350px;
+            border-radius: 8px;
+            margin-top: 50px;
+        }
+
+        .name-container {
+            display: flex; 
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .signup-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; 
+        }
+
+        .full-width {
+            margin-bottom: 15px;
+        }
+
+        .signup-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .uber-section {
+            margin-top: 50px;
+            width: 400px;
+        }
+
+        .uber-section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .uber-input {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            background-color: #eeeeee;
+            border: none;
+            border-radius: 2px;
+            box-sizing: border-box;
+        }
+
+        .uber-btns {
+            margin-top: 20px;
+        }
+
+        .btn-black {
+            background-color: black;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .btn-gray {
+            background-color: #eeeeee;
+            color: black;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+        }
+
+        hr { margin: 40px 0; border: 0; border-top: 1px solid #eee; }
+    </style>
+</head>
+<body>
+
+    <div>
+        <input type="text" placeholder="Name" class="block-input">
+        <input type="text" placeholder="Email" class="block-input">
+    </div>
+
+    <hr>
+
+    <div class="survey-container">
+        <p class="survey-text">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+        <button class="survey-btn">Yes</button>
+        <button class="survey-btn">No</button>
+    </div>
+
+    <hr>
+
+    <div class="google-section">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" class="google-logo">
+        <input type="text" placeholder="Search Google or type a URL" class="google-search">
+    </div>
+
+    <hr>
+
+    <div class="signup-card">
+        <div class="name-container">
+            <input type="text" placeholder="First name" class="signup-input">
+            <input type="text" placeholder="Last name" class="signup-input">
+        </div>
+        <input type="email" placeholder="Email" class="signup-input full-width">
+        <button class="signup-btn">Sign Up</button>
+    </div>
+
+    <hr>
+
+    <div class="uber-section">
+        <h2>Request a ride now</h2>
+        <input type="text" placeholder="Enter pickup location" class="uber-input">
+        <input type="text" placeholder="Enter destination" class="uber-input">
+        <div class="uber-btns">
+            <button class="btn-black">Request now</button>
+            <button class="btn-gray">Schedule for later</button>
+        </div>
+    </div>
+
+<h2>Source Code</h2>
+ <img src="mlt6code.png" width="700px" height="1200px"
+
+</body>
+</html>
