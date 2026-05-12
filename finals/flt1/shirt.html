@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Finals Task 1 - CSS Positions</title>
+  <style>
+    body {
+      height: 3000px;
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 35px;
+      height: 35px;
+      background-color: black;
+      color: white;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+
+    .close-btn:hover {
+      background-color: red;
+    }
+
+    .fixed-box {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 320px;
+      height: 180px;
+      background-color: gray;
+    }
+
+    .card-container {
+      display: inline-block;
+      position: relative;
+      width: 200px;
+      margin-top: 40px;
+    }
+
+    .card-container img {
+      width: 100%;
+      display: block;
+    }
+
+    .badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: black;
+      color: white;
+      font-size: 11px;
+      padding: 3px 6px;
+    }
+
+    .add-to-cart {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 5px 12px;
+      font-size: 12px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .add-to-cart:hover {
+      background-color: black;
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+
+  <button class="close-btn">X</button>
+
+  <div class="fixed-box"></div>
+
+  <div class="card-container">
+    <img src="shirtt.jpg" alt="Clothing item">
+    <span class="badge">20% OFF</span>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+
+</body>
+</html>

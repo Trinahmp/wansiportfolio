@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bootstrap Grid Layouts</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+
+    body{
+      background-color: white;
+      padding: 40px;
+      font-family: Arial, sans-serif;
+    }
+
+    h2{
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-top: 50px;
+    }
+
+    .wrapper{
+      background: #e9e9e9;
+      padding: 15px;
+      margin-bottom: 35px;
+    }
+
+    .green-box{
+      background: #198754;
+      color: white;
+      padding: 18px;
+      border: 2px solid #dcdcdc;
+      font-weight: bold;
+    }
+
+    .purple-box{
+      background: #a406a4;
+      color: white;
+      padding: 18px;
+      border: 2px solid orange;
+      font-weight: bold;
+    }
+
+    .pink-box{
+      background: #f5664d;
+      color: white;
+      padding: 18px;
+      border: 2px solid white;
+      font-weight: bold;
+    }
+
+    .cyan-box{
+      background: #1a9b90;
+      color: white;
+      padding: 18px;
+      border: 2px solid white;
+      font-weight: bold;
+    }
+
+    .blue-box{
+      background: royalblue;
+      color: white;
+      padding: 18px;
+      border: 2px solid white;
+      font-weight: bold;
+    }
+
+    .dark-box{
+      background: #2f4f4f;
+      color: white;
+      padding: 18px;
+      border: 2px solid white;
+      font-weight: bold;
+    }
+
+    .layout4{
+      background: #eef3f8;
+      padding: 30px;
+      border-radius: 5px;
+    }
+
+    .card-design{
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      height: 100%;
+    }
+
+    .custom-btn{
+      background: deepskyblue;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+    }
+
+    .custom-btn:hover{
+      background: dodgerblue;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <h2>Layout 1.</h2>
+
+  <div class="wrapper">
+    <div class="row">
+
+      <div class="col-md-6 col-12">
+        <div class="green-box">
+          50% desktop, 100% mobile
+        </div>
+      </div>
+
+      <div class="col-md-6 col-12">
+        <div class="green-box">
+          50% desktop, 100% mobile
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="row">
+
+      <div class="col-md-6 col-12">
+        <div class="purple-box">
+          50% desktop, 100% mobile
+        </div>
+      </div>
+
+      <div class="col-md-6 col-12">
+        <div class="purple-box">
+          50% desktop, 100% mobile
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <h2>Layout 2.</h2>
+
+  <div class="wrapper">
+    <div class="row">
+
+      <div class="col-md-6 col-12">
+        <div class="pink-box">Column 1</div>
+      </div>
+
+      <div class="col-md-3 col-12">
+        <div class="pink-box">Column 2</div>
+      </div>
+
+      <div class="col-md-3 col-12">
+        <div class="pink-box">Column 3</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="row">
+
+      <div class="col-12">
+        <div class="cyan-box">Column 1</div>
+      </div>
+
+      <div class="col-12">
+        <div class="cyan-box">Column 2</div>
+      </div>
+
+      <div class="col-12">
+        <div class="cyan-box">Column 3</div>
+      </div>
+
+    </div>
+  </div>
+
+  <h2>Layout 3.</h2>
+
+  <div class="wrapper">
+    <div class="row">
+
+      <div class="col-md-4 col-12">
+        <div class="blue-box">Column 1</div>
+      </div>
+
+      <div class="col-md-8 col-12">
+        <div class="blue-box">Column 2</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="row">
+
+      <div class="col-12">
+        <div class="dark-box">Column 1</div>
+      </div>
+
+      <div class="col-12">
+        <div class="dark-box">Column 2</div>
+      </div>
+
+    </div>
+  </div>
+
+  <h2>Layout 4.</h2>
+
+  <div class="container-fluid layout4">
+
+    <h3 class="text-primary fw-bold mb-4">
+      Bootstrap Grid Responsive
+    </h3>
+
+    <div class="row g-4">
+
+      <div class="col-lg-4 col-md-6 col-12">
+
+        <div class="card-design">
+
+          <h1 class="text-primary fw-bold">01</h1>
+
+          <p class="text-secondary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Magni quis facilis pariatur.
+          </p>
+
+          <button class="btn custom-btn">
+            Read more...
+          </button>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12">
+
+        <div class="card-design">
+
+          <h1 class="text-primary fw-bold">02</h1>
+
+          <p class="text-secondary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Magni quis facilis pariatur.
+          </p>
+
+          <button class="btn custom-btn">
+            Read more...
+          </button>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 col-md-12 col-12">
+
+        <div class="card-design">
+
+          <h1 class="text-primary fw-bold">03</h1>
+
+          <p class="text-secondary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Magni quis facilis pariatur.
+          </p>
+
+          <button class="btn custom-btn">
+            Read more...
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

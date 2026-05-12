@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finals Task 2 - Using CSS Flex Box</title>
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 15px;
+      color: darkblue;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .box-a {
+      display: flex;
+    }
+
+    .box-a .item1 {
+      width: 200px;
+      background: #bad0e3;
+      padding: 5px;
+    }
+
+    .box-a .item2 {
+      width: 75px;
+      background: #f5b7dd;
+      padding: 5px;
+    }
+
+    .box-b {
+      display: flex;
+    }
+
+    .box-b .item1 {
+      width: 50px;
+      background: #bad0e3;
+      padding: 5px;
+    }
+
+    .box-b .item2 {
+      flex: 1;
+      background: #f5b7dd;
+      padding: 5px;
+    }
+
+    .box-b .item3 {
+      width: 75px;
+      background: #bad0e3;
+      padding: 5px;
+    }
+
+    .box-c {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .box-c div {
+      background: #f5b7dd;
+      padding: 5px;
+    }
+
+    .box-d {
+      display: flex;
+      justify-content: space-between;
+      height: 50px;
+      border: 1px solid gray;
+      align-items: center;
+      padding: 0 10px;
+    }
+
+    .box-d .item1,
+    .box-d .item2 {
+      background: #f5b7dd;
+      padding: 5px 10px;
+    }
+
+    .header,
+    .footer {
+      background: #e8e1b8;
+      padding: 70px;
+      border: 2px solid red;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .left,
+    .right {
+      background: #50d94b;
+      border: 2px solid yellow;
+      padding: 20px;
+      min-height: 200px;
+    }
+
+    @media (max-width: 400px) {
+
+      .container {
+        flex-direction: column;
+      }
+
+      .right {
+        order: 1;
+      }
+
+      .left {
+        order: 2;
+      }
+    }
+
+    @media (min-width: 800px) {
+
+      .container {
+        flex-direction: row;
+      }
+
+      .left {
+        flex: 1;
+        order: 1;
+      }
+
+      .right {
+        flex: 3;
+        order: 2;
+      }
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Finals Task 2 - Using CSS Flex Box</h1>
+
+  <h2>Part 1</h2>
+
+  <div class="section">
+    <div class="box-a">
+      <div class="item1">200px</div>
+      <div class="item2">75px</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="box-b">
+      <div class="item1">item1</div>
+      <div class="item2">item2</div>
+      <div class="item3">item3</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="box-c">
+      <div>item1</div>
+      <div>item2</div>
+      <div>item3</div>
+      <div>item4</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="box-d">
+      <div class="item1">item1</div>
+      <div class="item2">item2</div>
+    </div>
+  </div>
+
+  <h2>Part 2</h2>
+
+  <header class="header">
+    This is a Header
+  </header>
+
+  <main class="container">
+
+    <section class="left">
+      Section left-nav
+    </section>
+
+    <section class="right">
+      Section right-nav
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    This is a footer
+  </footer>
+
+</body>
+</html>
