@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FastAid</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<div class="headers"></div>
+
+<nav>
+  <img src="Images2/fastaidlogo.jpg" alt="" class="nav-logo">
+  <button class="active-nav" id="nav-home" onclick="openSection('home')">Home</button>
+  <button id="nav-about" onclick="openSection('about')">About</button>
+  <button id="nav-guide" onclick="openSection('guide')">First Aid Guides</button>
+  <button id="nav-tips" onclick="openSection('tips')">Health Tips</button>
+  <button id="nav-faq" onclick="openSection('faq')">FAQ</button>
+  <button id="nav-contact" onclick="openSection('contact')">Contact</button>
+</nav>
+
+<header id="heroSection">
+  <img src="Images2/Locationpic.jpg" alt="">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">PSAU CAMPUS INFIRMARY GUIDE</div>
+    <h1>FastAid<br>Health &amp; Emergency Guide</h1>
+    <p>A modern health information platform designed for PSAU students and staff. Learn emergency response procedures, campus health guides, wellness tips, and clinic services in one place.</p>
+  </div>
+</header>
+
+<section class="section active" id="home">
+
+  <div class="home-contact-strip">
+    <div class="home-contact-card">
+      <i class="ti ti-phone-call"></i>
+      <p>Contact: 0965-876-8974</p>
+    </div>
+    <div class="home-contact-card">
+      <i class="ti ti-mail"></i>
+      <div>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnJjjpRPkgKhwSRVXrRxsGcKSNsDnhsGgFmBFjhjVKHhGztNJqnsmwlBSnVWDjkCLbdQq">
+          <p>Email:fastaidsaveslives@gmail.com</p>
+        </a>
+      </div>
+    </div>
+    <div class="home-contact-card">
+      <i class="ti ti-brand-facebook"></i>
+      <div>
+        <a href="https://www.facebook.com/psau.infirmary"><p>Facebook: Psau Infirmary</p></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-hero-split">
+    <div class="home-hero-image">
+      <img src="Images2/ambulance1.jpg" alt="">
+      <div class="hero-overlay2"></div>
+      <div class="home-hero-circle">
+        <img src="Images2/circlelogo.jpg" alt="">
+      </div>
+    </div>
+    <div class="home-hero-text">
+      <h2>Quick Access to Health and Emergency Information</h2>
+      <div class="about-text"><p>FastAid serves as a reliable platform where PSAU students and staff can access first aid guides, health tips, emergency information, and campus clinic services.</p></div>
+      <div class="home-feature-list">
+        <div class="home-feature-item"><div class="home-feature-check">&#10003;</div>Emergency Information Access</div>
+        <div class="home-feature-item"><div class="home-feature-check">&#10003;</div>First Aid Guides and Reference Materials</div>
+        <div class="home-feature-item"><div class="home-feature-check">&#10003;</div>Health Promotion and Awareness Tips</div>
+        <div class="home-feature-item"><div class="home-feature-check">&#10003;</div>PSAU Infirmary Information</div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="section" id="about">
+
+  <div class="about-wrapper">
+
+    <div class="section-heading"><h2>About Us</h2></div>
+
+    <h2 class="about-heading2">Welcome to Fast Aid</h2>
+    <p class="about-text">Fast Aid is a health and first aid guide website developed for the students and staff of Pampanga State Agricultural University. The website aims to provide accessible, reliable, and easy-to-understand first aid information that can help users respond properly during emergencies and health-related situations.</p>
+    <p class="about-text">Fast Aid was created to serve as a digital guide that promotes awareness, preparedness, and safety within the PSAU community. Through this platform, users can explore basic first aid procedures, health tips, emergency response guides, and important information related to campus healthcare services.</p>
+    <p class="about-text">The website also includes information about the PSAU Infirmary to help students and staff easily access medical assistance whenever needed.</p>
+
+    <h2 class="about-heading2">Our Mission</h2>
+    <p class="about-text">Our mission is to provide the PSAU community with quick access to reliable first aid and health information that can help improve safety awareness, preparedness, and responsible health practices.</p>
+
+    <h2 class="about-heading2">Our Vision</h2>
+    <p class="about-text">Our vision is to become a trusted and student-friendly digital health guide that supports the well-being of PSAU students and staff through accessible first aid education and healthcare information.</p>
+
+    <h2 class="about-heading2">Why We Created Fast Aid</h2>
+    <p class="about-text">Emergencies and health concerns can happen anytime, especially inside schools and universities. Many students and staff may not always know the proper first aid procedures during unexpected situations.</p>
+    <p class="about-text">Fast Aid was developed to help provide immediate access to basic health and first aid knowledge that users can easily understand and apply. The website aims to encourage preparedness and promote a safer environment within the PSAU community.</p>
+
+    <h2 class="about-heading2">Our Goals</h2>
+    <p class="about-text">To spread awareness about the importance of first aid</p>
+    <p class="about-text">To provide quick and easy access to health-related information</p>
+    <p class="about-text">To help students and staff become more prepared during emergencies</p>
+    <p class="about-text">To support the PSAU community through informative and accessible digital resources</p>
+
+    <h2 class="about-heading2">About the PSAU Infirmary</h2>
+    <p class="about-text">Fast Aid also includes information about the PSAU Infirmary to help users locate and access healthcare services available on campus. The infirmary serves as an important part of the university's support system by providing medical assistance and basic healthcare services to students and staff.</p>
+
+    <h2 class="about-heading2">Our Commitment</h2>
+    <p class="about-text">Fast Aid is committed to providing clear, organized, and helpful information that can support the health and safety needs of the PSAU community. The website is designed to be simple, informative, and user-friendly for all users.</p>
+
+  </div>
+
+</section>
+
+<section class="section" id="guide">
+  <div class="section-heading">
+    <h2>First Aid Guides</h2>
+    <p>Learn the correct emergency response procedures for common campus medical emergencies.</p>
+  </div>
+
+  <div id="topicData">
+    <div data-topic="ankle" data-icon="🦶" data-label="Sprained Ankle" data-alert="orange" data-immediate="Apply the RICE method immediately and avoid putting weight on the ankle.">
+      <ul data-symptoms><li>Swelling around the ankle</li><li>Pain when walking or bearing weight</li><li>Bruising or tenderness</li><li>Limited range of motion</li></ul>
+      <ol data-steps><li><strong>Rest</strong> — stop activity immediately and do not walk on it.</li><li><strong>Ice</strong> — apply ice wrapped in cloth for 20 minutes every 2-3 hours.</li><li><strong>Compression</strong> — wrap with an elastic bandage to reduce swelling.</li><li><strong>Elevation</strong> — keep the ankle raised above the level of your heart.</li><li><strong>Pain Relief</strong> — take mild over-the-counter pain relief if needed.</li><li><strong>Gentle Movement</strong> — after 48 hours, try very gentle circular motions.</li><li><strong>Check Circulation</strong> — ensure bandages aren't too tight (numbness/tingling).</li></ol>
+      <ul data-donts><li>Don't apply ice directly to skin</li><li>Don't walk on it if severe pain</li><li>Don't ignore swelling that worsens</li></ul>
+      <p data-seek>Seek care if you can't bear weight or swelling is severe.</p>
+    </div>
+    <div data-topic="cuts" data-icon="🩹" data-label="Cuts &amp; Wounds" data-alert="red" data-immediate="Apply firm pressure with a clean cloth to stop bleeding.">
+      <ul data-symptoms><li>Bleeding from skin break</li><li>Pain at wound site</li><li>Possible dirt or debris in wound</li></ul>
+      <ol data-steps><li><strong>Wash Hands</strong> — Clean your hands thoroughly before touching the wound.</li><li><strong>Stop Bleeding</strong> — Apply gentle, steady pressure with a clean bandage.</li><li><strong>Rinse Wound</strong> — Use clean, running water to wash away dirt and debris.</li><li><strong>Clean Area</strong> — Gently clean the skin around the wound with mild soap.</li><li><strong>Apply Ointment</strong> — Use a thin layer of antibiotic cream to keep it moist.</li><li><strong>Cover Wound</strong> — Place a sterile bandage or gauze over the area.</li><li><strong>Change Daily</strong> — Replace the dressing every 24 hours or if it gets wet.</li></ol>
+      <ul data-donts><li>Don't remove embedded objects</li><li>Don't use cotton wool directly on wound</li><li>Don't blow on the wound</li></ul>
+      <p data-seek>Seek care if bleeding won't stop after 10 min, wound is deep, or stitches may be needed.</p>
+    </div>
+    <div data-topic="burns" data-icon="🔥" data-label="Burns" data-alert="red" data-immediate="Cool the burn under cool (not cold) running water for at least 10 minutes.">
+      <ul data-symptoms><li>Red, blistered, or white skin</li><li>Severe pain or no pain (severe burns)</li><li>Swelling at burn site</li></ul>
+      <ol data-steps><li><strong>Cool the Burn</strong> — Run cool (not cold) water over the area for 10-20 minutes.</li><li><strong>Remove Jewelry</strong> — Gently take off rings or restrictive items before swelling starts.</li><li><strong>Assess the Area</strong> — Check for charred skin or large blisters that need medical care.</li><li><strong>Cover Loosely</strong> — Use cling wrap or a clean, non-fluffy cloth to protect the site.</li><li><strong>Avoid Irritants</strong> — Ensure no ice, grease, or butter is applied to the burn.</li><li><strong>Pain Management</strong> — Take mild over-the-counter pain relief if you feel discomfort.</li><li><strong>Leave Blisters</strong> — Do not pop any blisters, as they protect the underlying skin.</li></ol>
+      <ul data-donts><li>Don't use ice, toothpaste, or butter</li><li>Don't break blisters</li><li>Don't remove stuck clothing</li></ul>
+      <p data-seek>Seek care for burns larger than palm size, facial burns, or chemical burns.</p>
+    </div>
+    <div data-topic="nose" data-icon="🩸" data-label="Nosebleeds" data-alert="orange" data-immediate="Sit upright and lean slightly forward. Pinch the soft part of the nose.">
+      <ul data-symptoms><li>Blood flowing from one or both nostrils</li><li>Possible dizziness if blood loss is heavy</li></ul>
+      <ol data-steps><li><strong>Positioning</strong> — Sit down and lean your body slightly forward.</li><li><strong>Firm Pinch</strong> — Pinch the soft part of your nose firmly with your thumb and finger.</li><li><strong>Breathe Easy</strong> — Breathe through your mouth while your nose is pinched.</li><li><strong>Be Patient</strong> — Hold the pinch for 10–15 minutes continuously without letting go.</li><li><strong>Release Slowly</strong> — Release the pressure slowly to check if the bleeding has stopped.</li><li><strong>Cool Down</strong> — Apply a cold compress or ice pack to the bridge of your nose.</li><li><strong>Rest Quietly</strong> — Avoid bending over or straining for several hours after the bleed.</li></ol>
+      <ul data-donts><li>Don't tilt head back — may cause swallowing blood</li><li>Don't stuff tissue tightly up the nostril</li><li>Don't blow nose after bleeding stops</li></ul>
+      <p data-seek>Seek care if bleeding lasts more than 20 min or follows a head injury.</p>
+    </div>
+    <div data-topic="choke" data-icon="😮" data-label="Choking" data-alert="red" data-immediate="Act fast — airway obstruction can be fatal within minutes.">
+      <ul data-symptoms><li>Cannot speak, cough, or breathe</li><li>High-pitched noise when breathing</li><li>Blue tinge to lips or face</li><li>Clutching throat with hands</li></ul>
+      <ol data-steps><li><strong>Check for Coughing</strong> — Encourage them to cough hard if they are able to.</li><li><strong>Positioning</strong> — Stand behind them and lean them slightly forward.</li><li><strong>Back Blows</strong> — Give up to 5 firm blows between the shoulder blades.</li><li><strong>Check Airway</strong> — Quickly check if the object has been dislodged.</li><li><strong>Abdominal Thrusts</strong> — If failed, perform 5 Heimlich thrusts above the navel.</li><li><strong>Cycle Actions</strong> — Alternate between 5 back blows and 5 abdominal thrusts.</li><li><strong>Call for Help</strong> — Dial emergency services if the object remains stuck.</li></ol>
+      <ul data-donts><li>Don't do abdominal thrusts on infants</li><li>Don't do blind finger sweeps in the mouth</li><li>Don't leave them alone</li></ul>
+      <p data-seek>Call 911 immediately if person becomes unconscious.</p>
+    </div>
+    <div data-topic="faint" data-icon="💤" data-label="Fainting" data-alert="blue" data-immediate="Catch the person if possible to prevent injury from falling.">
+      <ul data-symptoms><li>Sudden brief loss of consciousness</li><li>Pale, cold, clammy skin</li><li>Weak pulse</li><li>Nausea or dizziness before fainting</li></ul>
+      <ol data-steps><li><strong>Safe Positioning</strong> — Lay the person flat on their back on the ground.</li><li><strong>Elevate Legs</strong> — Raise their legs about 30 cm (12 inches) above heart level.</li><li><strong>Loosen Clothing</strong> — Loosen any tight belts, collars, or restrictive waistbands.</li><li><strong>Improve Airflow</strong> — Ensure they have fresh air and a cool, quiet environment.</li><li><strong>Check Breathing</strong> — Monitor for a clear airway; start CPR if they aren't breathing.</li><li><strong>Recovery Rest</strong> — Allow them to remain lying down when they come around.</li><li><strong>Monitor Status</strong> — Check for confusion or injury and keep them calm while resting.</li></ol>
+      <ul data-donts><li>Don't give water until fully conscious</li><li>Don't leave person standing</li><li>Don't place a pillow under head</li></ul>
+      <p data-seek>Seek care if fainting is recurrent, unexplained, or followed by confusion.</p>
+    </div>
+    <div data-topic="fever" data-icon="🌡️" data-label="Fever" data-alert="orange" data-immediate="Stay hydrated and rest. Monitor temperature regularly.">
+      <ul data-symptoms><li>Body temperature above 38°C (100.4°F)</li><li>Chills and shivering</li><li>Headache and muscle aches</li><li>Sweating, flushed skin</li></ul>
+      <ol data-steps><li><strong>Environment</strong> — Rest in a cool, quiet, and well-ventilated room.</li><li><strong>Hydration</strong> — Drink plenty of fluids like water, juice, or broth.</li><li><strong>Medication</strong> — Take paracetamol or ibuprofen only as directed.</li><li><strong>Cooling</strong> — Apply a cool, damp cloth to the forehead or back of neck.</li><li><strong>Comfort</strong> — Remove extra layers of heavy clothing or blankets.</li><li><strong>Monitoring</strong> — Check and record the temperature every 2 to 4 hours.</li><li><strong>Watch Signs</strong> — Look for a stiff neck, rash, or breathing difficulties.</li></ol>
+      <ul data-donts><li>Don't use ice baths — may cause shivering</li><li>Don't give aspirin to children</li><li>Don't suppress fever below 38°C unnecessarily</li></ul>
+      <p data-seek>Seek care if fever exceeds 39.4°C, lasts more than 3 days, or is accompanied by stiff neck.</p>
+    </div>
+    <div data-topic="head" data-icon="🧠" data-label="Headache" data-alert="blue" data-immediate="Rest in a quiet, dark room and drink water.">
+      <ul data-symptoms><li>Throbbing or pressure in head</li><li>Sensitivity to light or sound</li><li>Nausea</li><li>Pain may be one-sided (migraine)</li></ul>
+      <ol data-steps><li><strong>Find Quiet</strong> — Rest in a quiet, darkened room to reduce stimulation.</li><li><strong>Hydrate</strong> — Drink a full glass of water, as dehydration is a common trigger.</li><li><strong>Compress</strong> — Apply a cold or warm compress to your forehead or neck.</li><li><strong>Medication</strong> — Take OTC pain relief like paracetamol or ibuprofen as directed.</li><li><strong>Digital Break</strong> — Avoid all screens, bright lights, and loud noises.</li><li><strong>Relaxation</strong> — Practice slow breathing and consciously relax tense muscles.</li><li><strong>Pressure Relief</strong> — Remove any tight headbands or hats that may cause tension.</li></ol>
+      <ul data-donts><li>Don't ignore sudden severe "thunderclap" headache</li><li>Don't take pain medication more than 2 days in a row</li><li>Don't skip meals — hunger triggers headaches</li></ul>
+      <p data-seek>Seek care immediately for sudden severe headache, vision changes, or headache after head injury.</p>
+    </div>
+    <div data-topic="abite" data-icon="🐕" data-label="Animal Bites" data-alert="red" data-immediate="Wash the wound immediately — this is the most critical step.">
+      <ul data-symptoms><li>Puncture wounds or lacerations</li><li>Bleeding</li><li>Swelling and bruising around wound</li></ul>
+      <ol data-steps><li><strong>Thorough Wash</strong> — Wash the wound with soap and water for at least 15 minutes.</li><li><strong>Control Bleeding</strong> — Apply gentle pressure with a clean cloth if the wound is bleeding.</li><li><strong>Disinfect</strong> — Apply an antiseptic solution to the cleaned area.</li><li><strong>Dress Wound</strong> — Cover the area with a clean, sterile dressing or bandage.</li><li><strong>Seek Medical Care</strong> — Report to the infirmary or hospital within 24 hours.</li><li><strong>Start Treatment</strong> — Receive anti-rabies and tetanus treatment as advised by doctors.</li><li><strong>Finish Schedule</strong> — Complete the full vaccination schedule to ensure full protection.</li></ol>
+      <ul data-donts><li>Don't delay treatment even if wound seems minor</li><li>Don't close the wound tightly</li><li>Don't ignore it — rabies is fatal if untreated</li></ul>
+      <p data-seek>Seek medical care immediately. Rabies vaccination must begin promptly.</p>
+    </div>
+    <div data-topic="insect" data-icon="🐝" data-label="Insect Bites" data-alert="orange" data-immediate="Remove any stinger by scraping — do not use tweezers.">
+      <ul data-symptoms><li>Red, swollen, itchy bump</li><li>Stinger may be visible (bee)</li><li>Burning or stinging sensation</li></ul>
+      <ol data-steps><li><strong>Scrape Stinger</strong> — Remove the stinger quickly using a card or fingernail.</li><li><strong>Clean Area</strong> — Wash the bite site thoroughly with mild soap and water.</li><li><strong>Reduce Swelling</strong> — Apply a cold compress or ice pack for 10 minutes.</li><li><strong>Elevate</strong> — Keep the affected limb raised to further reduce any swelling.</li><li><strong>Apply Cream</strong> — Use hydrocortisone cream or calamine lotion for the itch.</li><li><strong>Oral Relief</strong> — Take an over-the-counter antihistamine for severe itching.</li><li><strong>Watch for Allergy</strong> — Monitor for 30 minutes for signs of a severe reaction.</li></ol>
+      <ul data-donts><li>Don't squeeze or pinch a bee stinger</li><li>Don't scratch — can cause infection</li><li>Don't ignore hives, swelling, or breathing difficulty</li></ul>
+      <p data-seek>Call 911 immediately for signs of anaphylaxis: throat swelling, difficulty breathing, dizziness.</p>
+    </div>
+    <div data-topic="heat" data-icon="☀️" data-label="Heat Exhaustion" data-alert="orange" data-immediate="Move person to a cool place immediately and cool their body down.">
+      <ul data-symptoms><li>Heavy sweating, cool pale skin</li><li>Rapid weak pulse</li><li>Nausea or vomiting</li><li>Muscle cramps, dizziness, fatigue</li></ul>
+      <ol data-steps><li><strong>Find Shade</strong> — Move to a cool, shaded, or air-conditioned area immediately.</li><li><strong>Positioning</strong> — Lay them down and elevate their legs to support circulation.</li><li><strong>Cool the Skin</strong> — Apply cool, damp cloths or spray the skin with water.</li><li><strong>Loosen Clothing</strong> — Remove or loosen any tight or restrictive clothing.</li><li><strong>Hydrate Slowly</strong> — Have them sip cool water slowly if they are conscious.</li><li><strong>Airflow</strong> — Use fans or fanning to increase cooling through evaporation.</li><li><strong>Monitor</strong> — Closely watch their temperature and level of consciousness.</li></ol>
+      <ul data-donts><li>Don't give cold beverages too fast — may cause cramps</li><li>Don't leave person alone</li><li>Don't ignore — may progress to heat stroke</li></ul>
+      <p data-seek>Seek care if symptoms worsen, person loses consciousness, or temperature exceeds 40°C.</p>
+    </div>
+    <div data-topic="frac" data-icon="🦴" data-label="Minor Fractures" data-alert="red" data-immediate="Immobilize the limb — do not attempt to realign bones.">
+      <ul data-symptoms><li>Pain at injury site, worse on movement</li><li>Swelling and bruising</li><li>Deformity or unusual shape</li><li>Inability to move limb normally</li></ul>
+      <ol data-steps><li><strong>Stop Movement</strong> — Immediately stop any movement of the injured area.</li><li><strong>Immobilize</strong> — Use a makeshift splint or padding to keep the limb still.</li><li><strong>Apply Ice</strong> — Use an ice pack wrapped in cloth to reduce pain and swelling.</li><li><strong>Elevate</strong> — Keep the injured limb raised above heart level if possible.</li><li><strong>Control Bleeding</strong> — Apply gentle pressure if there are any open wounds.</li><li><strong>Check Circulation</strong> — Ensure splints aren't too tight; check for warmth and pulse.</li><li><strong>Seek X-ray</strong> — Transport to a hospital for professional imaging and care.</li></ol>
+      <ul data-donts><li>Don't try to straighten or realign the bone</li><li>Don't apply ice directly to skin</li><li>Don't allow person to bear weight on fracture</li></ul>
+      <p data-seek>Seek emergency care immediately — all suspected fractures need X-ray and proper treatment.</p>
+    </div>
+    <div data-topic="cpr" data-icon="❤️" data-label="CPR Basics" data-alert="red" data-immediate="Call emergency services first, then start CPR immediately.">
+      <ul data-symptoms><li>No response to tapping shoulders</li><li>No normal breathing (gasping is not normal breathing)</li><li>No pulse detectable</li></ul>
+      <ol data-steps><li><strong>Call Emergency</strong> — Call emergency services immediately.</li><li><strong>Open Airway</strong> — Tilt the head back and lift the chin to open the airway.</li><li><strong>Check Breathing</strong> — Look for normal breathing for no more than 10 seconds.</li><li><strong>Compressions</strong> — Give 30 chest compressions — hard and fast, in the center of the chest.</li><li><strong>Rescue Breaths</strong> — Give 2 rescue breaths if you are trained and comfortable.</li><li><strong>Maintain Cycle</strong> — Continue the 30:2 cycle until help arrives or the person recovers.</li><li><strong>Use AED</strong> — Attach an Automated External Defibrillator as soon as one is available.</li></ol>
+      <ul data-donts><li>Don't stop CPR unless person recovers or help arrives</li><li>Don't pause for more than 10 seconds</li><li>Don't be afraid — imperfect CPR is better than none</li></ul>
+      <p data-seek>Continue CPR and call emergency services. Use an AED if available.</p>
+    </div>
+  </div>
+
+  <div class="carousel-row">
+    <button class="carousel-btn" id="faPrev" onclick="faSlide(-1)" aria-label="Previous">&#8249;</button>
+    <div class="carousel-track-wrap">
+      <div class="carousel-track" id="faTrack"></div>
+    </div>
+    <button class="carousel-btn" id="faNext" onclick="faSlide(1)" aria-label="Next">&#8250;</button>
+  </div>
+  <div id="faGuideArea"></div>
+
+</section>
+
+<section id="tips">
+  <div class="tips-outer">
+    <h2 class="tips-main-title">Health Tips</h2>
+    <div class="tips-grid-wrap">
+
+      <div class="tip-card">
+        <div class="tip-img-wrap">
+          <img src="Images2/stayhydrated.jpg" alt="">
+        </div>
+        <p class="tip-card-title">Stay Hydrated</p>
+        <p class="tip-card-desc">Drink 8 glasses of water daily for energy and kidney health.</p>
+      </div>
+
+      <div class="tip-card">
+        <div class="tip-img-wrap">
+          <img src="Images2/exerciseregularly.jpg" alt="">
+        </div>
+        <p class="tip-card-title">Exercise Regularly</p>
+        <p class="tip-card-desc">30 mins of activity most days reduces stress and boosts immunity.</p>
+      </div>
+
+      <div class="tip-card">
+        <div class="tip-img-wrap">
+          <img src="Images2/getenoughsleep.png" alt="">
+        </div>
+        <p class="tip-card-title">Get Enough Sleep</p>
+        <p class="tip-card-desc">Get 7–9 hours nightly with a consistent schedule.</p>
+      </div>
+
+      <div class="tip-card">
+        <div class="tip-img-wrap">
+          <img src="Images2/eatbalanced.png" alt="">
+        </div>
+        <p class="tip-card-title">Eat Balanced Meals</p>
+        <p class="tip-card-desc">Half veggies, quarter protein, quarter whole grains.</p>
+      </div>
+
+      <div class="tip-card">
+        <div class="tip-img-wrap">
+          <img src="Images2/managestress.png" alt="">
+        </div>
+        <p class="tip-card-title">Manage Stress</p>
+        <p class="tip-card-desc">Mindfulness and screen breaks protect your mental health.</p>
+      </div>
+
+      <div class="tip-card">
+        <div class="tip-img-wrap">
+          <img src="Images2/checkups.jpg" alt="">
+        </div>
+        <p class="tip-card-title">Get Regular Check-ups</p>
+        <p class="tip-card-desc">Annual screenings, BP checks and vaccinations keep you safe.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="section-heading"><h2>Frequently Asked Questions</h2></div>
+  <div class="faq-container">
+    <div class="faq-item"><button class="faq-question">1. What emergency cases can Fast Aid help with? <span>+</span></button><div class="faq-answer">Fast Aid provides guides for common emergencies like cuts, burns, sprains, nosebleeds, choking, fainting, and fever.</div></div>
+    <div class="faq-item"><button class="faq-question">2. Is Fast Aid available 24/7? <span>+</span></button><div class="faq-answer">Yes, the website can be accessed anytime for emergency guides and health information.</div></div>
+    <div class="faq-item"><button class="faq-question">3. Can I use Fast Aid even if I am not a medical student? <span>+</span></button><div class="faq-answer">Yes, the guides are written in a simple and easy-to-understand way for everyone.</div></div>
+    <div class="faq-item"><button class="faq-question">4. What should I bring to the PSAU infirmary? <span>+</span></button><div class="faq-answer">Bring your school ID and inform the staff about your symptoms or concern.</div></div>
+    <div class="faq-item"><button class="faq-question">5. What should I do before giving first aid? <span>+</span></button><div class="faq-answer">Make sure the area is safe and stay calm before helping the injured person.</div></div>
+    <div class="faq-item"><button class="faq-question">6. Can Fast Aid help during heat exhaustion? <span>+</span></button><div class="faq-answer">Yes, the website includes basic steps like resting in a cool area, drinking water, and avoiding too much activity.</div></div>
+    <div class="faq-item"><button class="faq-question">7. Why should I avoid self-medication? <span>+</span></button><div class="faq-answer">Taking medicine without proper advice may worsen your condition or cause side effects.</div></div>
+    <div class="faq-item"><button class="faq-question">8. How can I prevent common school injuries? <span>+</span></button><div class="faq-answer">Be careful while walking, avoid running in crowded areas, stay hydrated, and follow safety reminders.</div></div>
+    <div class="faq-item"><button class="faq-question">9. What should I do if someone has difficulty breathing? <span>+</span></button><div class="faq-answer">Seek immediate medical help or contact emergency services right away.</div></div>
+    <div class="faq-item"><button class="faq-question">10. Can I still go to class if I feel unwell? <span>+</span></button><div class="faq-answer">It is better to rest or visit the PSAU infirmary to avoid worsening your condition.</div></div>
+    <div class="faq-item"><button class="faq-question">11. What are signs that a person needs immediate medical attention? <span>+</span></button><div class="faq-answer">Severe bleeding, unconsciousness, chest pain, seizures, and difficulty breathing are signs that need urgent help.</div></div>
+    <div class="faq-item"><button class="faq-question">12. Why is staying hydrated important? <span>+</span></button><div class="faq-answer">Drinking enough water helps prevent dizziness, dehydration, and heat exhaustion.</div></div>
+    <div class="faq-item"><button class="faq-question">13. Can Fast Aid help me learn basic emergency response? <span>+</span></button><div class="faq-answer">Yes, Fast Aid provides beginner-friendly first aid and emergency response guides.</div></div>
+    <div class="faq-item"><button class="faq-question">14. What should I do during minor cuts or wounds? <span>+</span></button><div class="faq-answer">Clean the wound gently, apply pressure if bleeding, and cover it with a clean bandage.</div></div>
+    <div class="faq-item"><button class="faq-question">15. How can I contact the PSAU infirmary during emergencies? <span>+</span></button><div class="faq-answer">You may check the Emergency Contacts section of Fast Aid for important hotline numbers and campus contact information.</div></div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-heading"><h2>Contact the Clinic</h2></div>
+
+  <div class="card-container">
+    <div class="card4">
+      <img src="Images2/whitecall.png" alt="" style="height:80px;width:110px;margin-top:-20px;">
+      <div class="contact-label2">Emergency Number</div>
+      <div class="contact-value2">0965-876-8974</div>
+    </div>
+    <div class="card5">
+      <img src="Images2/whiteemail.png" alt="" style="height:80px;width:130px;margin-top:-20px;">
+      <div class="contact-label2">Email Address</div>
+      <div class="contact-value2"><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnJjjpRPkgKhwSRVXrRxsGcKSNsDnhsGgFmBFjhjVKHhGztNJqnsmwlBSnVWDjkCLbdQq" style="color:#c40015; text-decoration: none;">fastaidsaveslives@gmail.com</a></div>
+    </div>
+  </div>
+
+  <div class="contact-item">
+    <div class="office-hours-card">
+      <span class="main-label">OFFICE HOURS</span>
+      <div class="schedule-columns">
+        <div class="day-column">
+          <div class="day-entry"><strong>Monday</strong><p>7:00 AM – 6:00 PM</p></div>
+          <div class="day-entry"><strong>Tuesday</strong><p>7:00 AM – 6:00 PM</p></div>
+          <div class="day-entry"><strong>Wednesday</strong><p>7:00 AM – 6:00 PM</p></div>
+          <div class="day-entry"><strong>Thursday</strong><p>7:00 AM – 6:00 PM</p></div>
+        </div>
+        <div class="day-column right-side">
+          <div class="day-entry"><strong>Friday</strong><p>7:00 AM – 6:00 PM (Closed)</p></div>
+          <div class="day-entry"><strong>Saturday</strong><p>7:00 AM – 6:00 PM (Closed)</p></div>
+          <div class="day-entry"><strong>Sunday</strong><p>7:00 AM – 6:00 PM (Closed)</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="map-full">
+    <img src="Images2/Map%20Location.jpg" alt="">
+  </div>
+
+</section>
+
+<footer>
+  <h2>FastAid Health &amp; Emergency Guide</h2>
+  <p>&copy; 2026 PSAU Campus Health Guide</p>
+</footer>
+
+<script>
+function openSection(id){
+
+  document.querySelectorAll(".section, #tips")
+    .forEach(s => s.classList.remove("active"));
+
+  document.getElementById(id)
+    .classList.add("active");
+
+  document.querySelectorAll("nav button")
+    .forEach(b => b.classList.remove("active-nav"));
+
+  document.getElementById("nav-" + id)
+    .classList.add("active-nav");
+
+  const hero = document.getElementById("heroSection");
+
+  if(id === "home"){
+    hero.style.display = "block";
+  } else {
+    hero.style.display = "none";
+  }
+
+  window.scrollTo({
+    top:0,
+    behavior:'smooth'
+  });
+}
+const faTopics=[];
+document.querySelectorAll('#topicData [data-topic]').forEach(el=>{
+  faTopics.push({
+    id:el.dataset.topic, icon:el.dataset.icon, label:el.dataset.label,
+    alertType:el.dataset.alert, immediate:el.dataset.immediate,
+    symptoms:[...el.querySelectorAll('[data-symptoms] li')].map(li=>li.innerHTML),
+    steps:[...el.querySelectorAll('[data-steps] li')].map(li=>li.innerHTML),
+    donts:[...el.querySelectorAll('[data-donts] li')].map(li=>li.innerHTML),
+    seek:el.querySelector('[data-seek]').innerHTML
+  });
+});
+
+let faOffset=0, faActiveId=faTopics[0]?faTopics[0].id:'';
+
+function getPillWidth(){
+  const circle=document.querySelector('.topic-circle');
+  if(circle){ return circle.offsetWidth+14; }
+  if(window.innerWidth<480) return 54+14;
+  if(window.innerWidth<768) return 62+14;
+  if(window.innerWidth<1024) return 68+14;
+  return 76+14;
+}
+
+function getVisibleCount(){
+  const wrap=document.getElementById('faTrack')?.parentElement;
+  if(!wrap) return 6;
+  const pw=getPillWidth();
+  return Math.max(1,Math.floor(wrap.offsetWidth/pw));
+}
+
+function faRenderTrack(){
+  const track=document.getElementById('faTrack');
+  track.innerHTML='';
+  faTopics.forEach(t=>{
+    const pill=document.createElement('div');
+    pill.className='topic-pill'+(t.id===faActiveId?' fa-active':'');
+    pill.innerHTML=`<div class="topic-circle">${t.icon}</div><span class="topic-label">${t.label}</span>`;
+    pill.onclick=()=>faSelect(t.id);
+    track.appendChild(pill);
+  });
+  applyOffset();
+}
+
+function applyOffset(){
+  const pw=getPillWidth();
+  document.getElementById('faTrack').style.transform=`translateX(-${faOffset*pw}px)`;
+}
+
+function faSlide(dir){
+  const visible=getVisibleCount();
+  const max=Math.max(0,faTopics.length-visible);
+  faOffset=Math.min(max,Math.max(0,faOffset+dir));
+  applyOffset();
+}
+
+function faSelect(id){ faActiveId=id; faRenderTrack(); faRenderGuide(); }
+
+function faRenderGuide(){
+  const t=faTopics.find(x=>x.id===faActiveId);
+  if(!t)return;
+  const seekClass=t.alertType==='red'?'red':'';
+  document.getElementById('faGuideArea').innerHTML=`
+    <div class="fa-guide-card">
+      <div class="fa-card-header"><span class="fa-card-title">${t.label}</span></div>
+      <div class="fa-grid">
+        <div>
+          <div class="fa-guide-card" style="margin-bottom:16px"><div class="fa-box-label">Symptoms</div><ul class="fa-list">${t.symptoms.map(s=>`<li>${s}</li>`).join('')}</ul></div>
+          <div class="fa-guide-card" style="margin-bottom:16px"><div class="fa-box-label">Immediate action</div><p style="font-size:0.9rem;color:var(--muted);margin:0;line-height:1.6">${t.immediate}</p></div>
+          <div class="fa-guide-card"><div class="fa-box-label">What NOT to do</div>${t.donts.map(d=>`<div class="fa-dont-item"><span class="fa-dont-x">✕</span><span class="fa-dont-txt">${d}</span></div>`).join('')}</div>
+        </div>
+        <div><div class="fa-box"><div class="fa-box-label">Step-by-step</div><div class="fa-steps">${t.steps.map((s,i)=>`<div class="fa-step"><div class="fa-step-num">${i+1}</div><p>${s}</p></div>`).join('')}</div></div></div>
+      </div>
+      <div class="fa-seek ${seekClass}"><strong>When to seek medical help:</strong> ${t.seek}</div>
+    </div>`;
+}
+
+faRenderTrack();
+faRenderGuide();
+
+let resizeTimer;
+window.addEventListener('resize',()=>{
+  clearTimeout(resizeTimer);
+  resizeTimer=setTimeout(()=>{
+    const visible=getVisibleCount();
+    const max=Math.max(0,faTopics.length-visible);
+    if(faOffset>max) faOffset=max;
+    faRenderTrack();
+  },120);
+});
+
+document.querySelectorAll('.faq-question').forEach(button=>{
+  button.addEventListener('click',()=>{
+    const faqItem=button.parentElement;
+    faqItem.classList.toggle('active');
+    button.querySelector('span').textContent=faqItem.classList.contains('active')?'−':'+';
+  });
+});
+</script>
+</body>
+</html>
